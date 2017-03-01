@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rlTopData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/ivIcon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@drawable/img1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" >
+
+                <TextView
+                    android:id="@+id/textViewtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left"
+                    android:text="Sine Launch Party"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#7A7C76"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llLocDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/textViewLocation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="2dp"
+                    android:text="Creation Labs"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#7A7C76"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Today"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#AEAFA9" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:padding="2dp"
+                android:text="5:30 PM - 7:30PM"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#AEAFA9"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@drawable/ic_info" />
+            
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/textViewViewVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="VIEW VENUE"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#0099CC"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="left"
+            android:text="CANCEL"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#AEAFA9"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+ <View
+        android:layout_width="230dp"
+        android:layout_height="1dp"
+        android:layout_gravity="right"
+        android:background="#d6d6d6" />
+   
+</LinearLayout>

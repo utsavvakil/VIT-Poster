@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/titleImage"
+        android:scrollbarFadeDuration="0" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#03b5f5"
+                android:orientation="vertical"
+                android:padding="16dp" >
+
+                <TextView
+                    android:id="@+id/tvEventName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android Development Workshop"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvOrganizingChapter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="By IEEE VIT"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tvDateHeading"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:textColor="#4d4d4d" />
+
+                        <TextView
+                            android:id="@+id/tvEventDate"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="03/07/2014"
+                            android:textColor="#999999"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tvTimeHeading"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Time"
+                            android:textColor="#4d4d4d" />
+
+                        <TextView
+                            android:id="@+id/tvEventTime"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="06:00PM"
+                            android:textColor="#999999" />
+                    </LinearLayout>
+                </LinearLayout>
+
+               
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tvVenueHeading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Venue"
+                            android:textColor="#4d4d4d" />
+
+                        <TextView
+                            android:id="@+id/tvEventVenue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TT Gallery 1"
+                            android:textColor="#999999"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tvFeeHeading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fee"
+                            android:textColor="#4d4d4d" />
+
+                        <TextView
+                            android:id="@+id/tvEventFee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Free"
+                            android:textColor="#999999"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvAboutHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:textColor="#4d4d4d" />
+
+                <TextView
+                    android:id="@+id/tvEventDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android is a mobile operating system (OS) based on the Linux kernel that is currently developed by Google. With a user interface based on direct manipulation, Android is designed primarily for touchscreen mobile devices such as smartphones and tablet computers.\n\nA developer survey conducted in April–May 2013 found that 71% of mobile application develop for Android. The company revealed that there were over 1 billion active monthly Android users (that have been active for 30 days), up from 538 million in June 2013. \n\nIn this event the participants will learn the basics of android application development along many state of the art techniques to build a basic android application. We will cover all the aspects of app development starting from making an activity to making a publishable application."
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#999999" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvCoordinatorHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact"
+                    android:textColor="#4d4d4d" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvEventCoordinator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ishan Kothari:  "
+                        android:textColor="#999999"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tvEventCoordinatorNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:text="+91 9790207311"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+     <Button
+                    android:id="@+id/fabbutton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/tick_blue"
+                    android:paddingBottom="16dp" />
+    
+
+</LinearLayout>

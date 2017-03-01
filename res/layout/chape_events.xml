@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/viewBlue"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:background="#03B5f5"
+            android:paddingTop="20dp" />
+
+        <ListView
+            android:id="@+id/llChapEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/viewBlue"
+            android:layout_marginTop="50dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>
